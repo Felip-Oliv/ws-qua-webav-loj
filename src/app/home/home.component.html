@@ -1,0 +1,35 @@
+<body>
+  <h1>Conteúdo home</h1>
+<table class="flex-container" >
+
+
+<table class="flex-container">
+<div *ngFor="let produto of produtos">
+    <h3>ID: {{produto.id}} </h3>
+    <h3>{{produto.desc}}</h3>
+    <p>{{produto.foto}}</p>
+    <img src="{{produto.foto}}">
+</div>
+</table>
+
+</body>
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Camiseta personaliza super herois vingadores</mat-card-title>
+    <mat-card-subtitle>R$ 69,45</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="/assets/produto1.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      Camisetas 100% poliéster, usamos a técnica de sublimação para a estampa trazendo melhor qualidade na peça. Tecido muito confortável, extrema durabilidade, leve e muito macio.
+Pode ser lavado em máquina, pode passar ferro quente sobre toda a camiseta, inclusive sobre a estampa
+(até 110 ºC).
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>ADICIONAR AO CARRINHO</button>
+    <button mat-button>COMPRAR</button>
+  </mat-card-actions>
+</mat-card>

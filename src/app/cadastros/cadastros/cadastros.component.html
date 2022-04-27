@@ -1,0 +1,14 @@
+<body>
+
+
+<h3>Menu Secundário</h3>
+
+
+<button mat-button mat-raised-button color="primary" mat-button [matMenuTriggerFor]="menu">Cadastrar</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/cadastros/produtos" >Produtos</button>
+  <button mat-menu-item routerLink="/cadastros/produtos">Pessoas</button>
+</mat-menu>
+<router-outlet></router-outlet>
+</body>
+
