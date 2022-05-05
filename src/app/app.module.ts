@@ -21,6 +21,7 @@ import { MatInputModule } from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
 
+
 import { HttpClientModule } from "@angular/common/http";
 import { IncluirComponent } from './cadastros/produtos/incluir/incluir.component';
 import { EditarComponent } from './cadastros/produtos/editar/editar.component';
