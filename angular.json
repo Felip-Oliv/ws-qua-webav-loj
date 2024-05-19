@@ -106,5 +106,8 @@
       }
     }
   },
-  "defaultProject": "portal"
+  "defaultProject": "portal",
+  "cli": {
+    "analytics": "6958b37f-fca9-4db9-8060-1624d8a557d9"
+  }
 }
